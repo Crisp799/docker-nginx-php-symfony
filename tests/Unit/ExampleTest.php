@@ -11,8 +11,10 @@ class ExampleTest extends UnitTestCase
     /**
      * A basic test example.
      */
+
     public function testBasicTest(): void
     {
         $this->assertTrue(true);
     }
 }
+
