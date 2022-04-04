@@ -39,6 +39,12 @@
         <listener class="Symfony\Bridge\PhpUnit\SymfonyTestsListener" />
     </listeners>
     <testsuites>
+        <testsuite name="SpamChecker">
+            <directory suffix="Test.php">./tests</directory>
+        </testsuite>
+        <testsuite name="Controller">
+            <directory suffix="Test.php">./tests/Controller</directory>
+        </testsuite>
         <testsuite name="Unit">
             <directory suffix="Test.php">./tests/Unit</directory>
         </testsuite>
