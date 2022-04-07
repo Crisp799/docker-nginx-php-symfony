@@ -66,6 +66,7 @@ framework:
         routing:
             App\Message\Interfaces\MessageHighInterface: async_priority_high
             App\Message\Interfaces\MessageLowInterface: async_priority_low
+            App\Message\CommentMessage: async_priority_high
 
             # Route your messages to the transports
             # 'App\Message\YourMessage': async
