@@ -46,6 +46,8 @@ class CommentCrudController extends AbstractCrudController
             ->setLabel('Photo')
             ->onlyOnIndex()
             ;
+        yield TextField::new('state');
+
         yield EmailField::new('email');
         yield TextareaField::new('text')
             ->hideOnIndex()
