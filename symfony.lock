@@ -163,6 +163,9 @@
     "localheinz/diff": {
         "version": "1.0.1"
     },
+    "lorenzo/pinky": {
+        "version": "1.0.3"
+    },
     "lorisleiva/cron-translator": {
         "version": "v0.2.1"
     },
